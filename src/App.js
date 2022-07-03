@@ -10,7 +10,9 @@ const App = () => {
     <div className="container">
       <div className="heading">
         <img src={Logo} width="400px" height="auto" alt="RollingStone logo" />
-        <h1 id="top" className="title">The 25 Best Selling<br/>Albums Of All Time</h1>
+        <h1 className="title">
+          The 25 Best Selling<br/>Albums Of All Time
+        </h1>
       </div>
       <div className="row albumart">
         <img src={AlbumArt} width="1000px" height="auto" alt="Best Selling Albums of all time" />
@@ -26,10 +28,6 @@ const App = () => {
             </div>
           )
         })}
-      </div>
-      <div className="arrow">
-        <i className="fa fa-arrow-up" aria-hidden="true"></i>
-        <h1><a href="top">Back To Top</a></h1>
       </div>
       <footer>
         <h1>Web Design by Mike Dodson</h1>
