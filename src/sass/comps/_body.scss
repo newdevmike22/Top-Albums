@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700&family=Space+Mono&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .search input {
+      width: 255px;
+    }
+  
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    footer {
+      font-size: 12.5px;
+    }
+    .social-icon {
+      font-size: 1.75rem;
+      margin: 0.75rem;
+    }
+  
+    .heading img {
+      width: 320px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .card img {
+      height: 475px;
+    }
+  }

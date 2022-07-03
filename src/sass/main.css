@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700&family=Space+Mono&display=swap");
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 1080px) {
+  .search input {
+    width: 255px;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  footer {
+    font-size: 12.5px;
+  }
+  .social-icon {
+    font-size: 1.75rem;
+    margin: 0.75rem;
+  }
+  .heading img {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card img {
+    height: 475px;
+  }
+}
+
+.heading {
+  text-align: center;
+  margin: 5rem auto 2rem auto;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.number {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background: #CE9461;
+  border-radius: 70%;
+  padding-top: 6.5px;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 1.15rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+}
+
+.album {
+  padding: 1rem 1rem;
+}
+
+.albumart {
+  -webkit-box-shadow: 9px 14px 15px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: 9px 14px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  max-width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.arrow {
+  margin: 2rem 0 3rem;
+  text-align: center;
+}
+
+.arrow a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.fa-arrow-up {
+  color: #f2051d;
+  font-size: 2rem;
+}
+
+.btn {
+  border: none;
+  background: #0d068f;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: #CE9461;
+}
+
+.btn-desc {
+  color: #fff;
+  background: #f2051d;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.btn-desc:hover {
+  color: #fff;
+  background: #CE9461;
+}
+
+.finder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+}
+
+.searchInputs {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search input {
+  background: #fff;
+  border: 1px solid #0d068f;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 1rem;
+  padding: 1rem;
+  height: 3.5rem;
+  width: 300px;
+}
+
+.searchIcon {
+  height: 56px;
+  width: 50px;
+  color: #fff;
+  background: #0d068f;
+  border: solid 1px #0d068f;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchIcon svg {
+  font-size: 2rem;
+}
+
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  background: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+.dataItem p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+
+.slide {
+  margin-top: 4rem;
+}
+
+footer {
+  margin-bottom: 4rem;
+}
+
+footer h1 {
+  font-family: Space Mono;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.social-icons {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.social-icon {
+  color: #0d068f;
+  font-size: 2rem;
+  margin: 0.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  color: #a2d2ff;
+}
+/*# sourceMappingURL=main.css.map */
