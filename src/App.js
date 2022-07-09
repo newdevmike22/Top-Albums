@@ -6,6 +6,8 @@ import Logo from "./assets/RollingStone.png";
 
 const App = () => {
 
+  const today = new Date();
+
   return (
     <div className="container">
       <div className="heading">
@@ -30,10 +32,13 @@ const App = () => {
         })}
       </div>
       <footer>
-        <h1>Web Design by Mike Dodson</h1>
+      <h1>
+          &copy; Mike Dodson
+          <span> {today.getFullYear()}</span>.
+        </h1>
         <div className="social-icons">
-          <a href="https://www.facebook.com/michael.dodson.509" className="social-icon"><i className="fab fa-facebook hvr-float"></i></a>
-          <a href="https://twitter.com/DreamosophyMike" className="social-icon"><i className="fab fa-twitter-square"></i></a>
+          <a href="https://github.com/newdevmike22" className="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/michael-dodson-197231b9/" className="social-icon"><i class="fab fa-linkedin"></i></a>
         </div>
       </footer>
     </div>
@@ -41,3 +46,4 @@ const App = () => {
 }
 
 export default App;
+
